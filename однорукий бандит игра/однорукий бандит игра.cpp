@@ -2,7 +2,7 @@
 #include <cstdlib>
 #include <ctime>
 #include<Windows.h>
-
+using namespace std;
 
 // Функция для очистки консоли
 void clearScreen() {
@@ -71,6 +71,18 @@ int main() {
     setlocale(0, "");
     playSlotMachine(); // Запуск игры
 
+    cout << "___________________________________________" << endl;
+    cout << "|     |                          |        |" << endl;
+    cout << "|     |                          |        |" << endl;
+    cout << "|     |                          |        |" << endl;
+    cout << "|     |                          |        |" << endl;
+    cout << "|     |                          |        |" << endl;
+    cout << "|     |                          |        |" << endl;
+    cout << "|     |                          |        |" << endl;
+    cout << "|     |                          |        |" << endl;
+    cout << "|_____|__________________________|________|" << endl;
+ 
+    
     return 0;
 }
 
